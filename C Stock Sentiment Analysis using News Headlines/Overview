@@ -1,0 +1,8 @@
+25 Top headlines
+Label 0 -> Stock price will have have negative impact
+Label 1 -> Stock price will have have negative impact
+
+Stock price will be going to increase the next day
+Based on Top 25 headlines, we need to create a model
+
+Combine all headlines, do some NLP process
