@@ -1,0 +1,12 @@
+Credit_Card_Clustering:
+
+EDA:
+1. Mean imputation for missing values
+2. Dropped column which has no meaning - Customer ID
+3. Univariate analysis
+4. Detected outliers and removed them using Z score(<3)
+5. Scaled data using preprocessing.StandardScaler() from sklearn
+
+Model building:
+1. Obtained optimal number of clusters using Elbow method
+2.
