@@ -1,0 +1,46 @@
+Bengaluru house price detection:
+Real estate price prediction website. Built various prediction models and chose
+the best model and wrote python flask server model to serve http requests.
+The website was designed using HTML, CSS and JavaScript.
+
+EDA:
+1. Dropped unnecessary columns
+2. Handled missing values
+3. Converted some total square feet values from range to average
+4. Calculated Price per square feet from total square feet and price
+5. Locations with less than 10 houses are categorized as other location
+6. Detected and removed outliers based on :Typical square feet per bedroom is 300
+7. Detected and removed outliers based on variablilty of Price per square feet at respective locations
+8. Plotted Scatter plot and removed outliers based on Price for respective BHK at respective Location (Price of 2 BHK < Price of 3 BHK)
+9. Removed outliers based on number of baths to number of bedrooms (2 Bedroom house will usually have 2+2 baths or less, Not more than that)
+10. Encoded Locations using dummies
+
+Model Building:
+1. Declared dependent and independent variables
+2. Splitted data to train and test data using sklearn.model_selection train_test_split
+3. Fitted Linear Regression, Lasso, Decision tree models from sklearn
+4. Compared results/scores of different models and detected the best fit model for our data
+5. Predicted Price for different location, total square feet, number of bedrooms and baths
+
+Exported files for Server and UI building:
+1. Exported model to Pickel file  to be used by Flask server
+2. Saved columns information as .json file to be used by UI
+
+_____________________________________________________________________________________________________________________________________________
+
+Setting up Server:
+1. Created a file containing 3 folders --> client, model and server
+2. Server setup using flask 
+3. Coded different functions to get locations and post predicted home prices
+4. Tested Server interface using Postman API client
+
+Created and tested the User Interface:
+1. Coded HTML, CSS and Javascript files in client folder
+2. Removed bugs using Google Chrome developer tools --> Debugging
+3. Tested model and UI 
+
+_______________________________________________________________________________
+
+Deployed code to production using Amazon AWS
+1. Setup NGINX server in development environment on windows
+1. Amazon EC2 NGINX webserver

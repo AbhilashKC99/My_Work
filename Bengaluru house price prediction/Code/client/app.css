@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.location{
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 76 %;
+	border: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 40px;
+	border-radius: 5px;
+	}
+
+.switch-field{
+	font-family: "Roboto", sans-serif;
+	outline: 5;
+	background: #f2f2f2;
+	width: 70 %;
+	border: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 40px;
+	border-radius: 5px;	
+	width: 24%;
+}
+
+.area{
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 14 %;
+	border: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 40px;
+	border-radius: 5px;
+}
+.submit{
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color: white;
+	outline: 0;
+	background: #111;
+	width: 96 %;
+	border: 10;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+body {
+ /*background-image: url("https://image.freepik.com/free-photo/nordic-blue-simple-indoor-home-background_149197-9.jpg");*/
+ background-image:  url("https://images.freeimages.com/images/large-previews/5e3/windowwall-1504348.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ height: 100%;
+}
+
+h2 {
+  display: block;
+  color: #113;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+}
+
